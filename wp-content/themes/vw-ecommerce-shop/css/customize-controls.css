@@ -1,0 +1,72 @@
+#customize-controls .control-section-vw-ecommerce-shop .accordion-section-title:hover,
+#customize-controls .control-section-vw-ecommerce-shop .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-vw-ecommerce-shop .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+
+.rtl .control-section-vw-ecommerce-shop .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+/* ---------Customizer--------- */
+  
+.control-section-vw-ecommerce-shop h3.accordion-section-title {
+  	background: #000 !important;
+  	color: #fff !important;
+}
+a.button.button-secondary.alignright {
+    background: #e1261c;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 2px 2px 0px 0px #fff;
+    border: solid 1px #000;
+    border-bottom: none;
+    font-size: 12px;
+}
+a.button.button-secondary.alignright:hover {
+	background: #eee;
+	color: #000;
+}
+
+/*------- Typogarphy ----------*/
+
+.customize-control-typography ul {}
+
+.customize-control-typography li.typography-font-weight,
+.customize-control-typography li.typography-font-style,
+.customize-control-typography li.typography-font-size,
+.customize-control-typography li.typography-line-height {
+  float: left;
+  width: 50%;
+}
+
+.customize-control-typography li.typography-font-weight select,
+.customize-control-typography li.typography-font-style select {
+  width: 90%;
+}
+
+.customize-control-typography li.typography-font-weight,
+.customize-control-typography li.typography-font-size {
+  clear: both;
+}
+.customize-control-typography li.typography-font-size input,
+.customize-control-typography li.typography-line-height input {
+  width: 75px;
+}
+input.typography-font-color {
+    padding: 0;
+    margin: 0;
+}
+#customize-control-h1_typography,
+#customize-control-h2_typography,
+#customize-control-h3_typography,
+#customize-control-h4_typography,
+#customize-control-h5_typography{
+    border-bottom: solid 2px #1e1e1e1e;
+    padding-bottom: 12px;
+}
