@@ -1,0 +1,285 @@
+div#sviproimages_tab_data {
+    padding: 15px
+  }
+  
+  div#sviproimages_tab_data select {
+    height: 31px;
+    margin-right: 6px;
+    padding: 5px
+  }
+  
+  div#svigallery {
+    margin-top: 20px
+  }
+  
+  .svipro-product_images_container .product_images {
+    min-height: 100px;
+  }
+  
+  div#svigallery ul.product_images>li {
+    background: #f7f7f7;
+    border: 1px solid #d5d5d5;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: move;
+    float: left;
+    margin: 9px 9px 0 0;
+    position: relative;
+    width: 80px
+  }
+  
+  div#svigallery li img {
+    display: block;
+    height: auto;
+    width: 100%
+  }
+  
+  div#svigallery ::after,
+  div#svigallery ::before {
+    box-sizing: border-box
+  }
+  
+  div#svigallery .inside .svipro-product_images_container ul::after {
+    clear: both
+  }
+  
+  div#svigallery .inside .svipro-product_images_container ul::after,
+  div#svigallery .inside .svipro-product_images_container ul::before {
+    content: " ";
+    display: table
+  }
+  
+  div#svigallery h2 {
+    text-transform: capitalize;
+    background-color: #3c3c3c;
+    color: #fff;
+  }
+  
+  div#svigallery .inside .svipro-product_images_container ul ul.actions li a.delete {
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    font-size: 1.4em;
+    color: #999;
+  }
+  
+  div#svigallery .inside .svipro-product_images_container ul ul.actions li a.delete::before {
+    color: red;
+    content: "";
+    font-family: Dashicons;
+    font-variant: normal;
+    font-weight: 400;
+    height: 100%;
+    left: 0;
+    line-height: 1;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    text-indent: 0;
+    text-transform: none;
+    top: 0;
+    width: 100%
+  }
+  
+  div.svipro-product_images_container {
+    padding: 0 10px;
+    text-align: center
+  }
+  
+  div#svigallery .inside .svipro-product_images_container ul li:hover ul.actions {
+    display: block
+  }
+  
+  div#svigallery .inside .svipro-product_images_container ul ul.actions li a.tips {
+    cursor: pointer
+  }
+  
+  div#svigallery .inside .svipro-product_images_container ul {
+    margin: 0;
+    padding: 0
+  }
+  
+  div#svigallery .inside .svipro-product_images_container ul ul.actions {
+    display: none;
+    padding: 2px;
+    position: absolute;
+    right: -8px;
+    top: -8px
+  }
+  
+  .svi-pullright {
+    float: right !important
+  }
+  
+  li.show_if_variable a#svibulkbtn {
+    background-color: orange;
+    color: #fff
+  }
+  
+  li.show_if_variable.active a#svibulkbtn {
+    background-color: transparent;
+    color: inherit
+  }
+  
+  form#woosvi_license a {
+    font-weight: 700;
+    color: #45bbe6
+  }
+  
+  form#woosvi_license ul.sviul {
+    margin-left: 25px
+  }
+  
+  tr.svisubfield {
+    background-color: #f9f9f9;
+  }
+  
+  tr.svisubfield th {
+    padding-left: 3% !important;
+  }
+  
+  tr.svisubfield th div,
+  tr.svisubsubfield th div {
+    display: inline-block !important;
+    margin-left: 5px;
+  }
+  
+  tr.svisubfield th::before,
+  tr.svisubsubfield th::before {
+    content: '-';
+  }
+  
+  tr.svisubsubfield th {
+    padding-left: 5% !important;
+  }
+  
+  .svibadge {
+    padding: 1px 9px 2px;
+    font-size: 12.025px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: #999999;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+  }
+  
+  .svibadge:hover {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .svibadge-error {
+    background-color: #b94a48;
+  }
+  
+  .svibadge-error:hover {
+    background-color: #953b39;
+  }
+  
+  .svibadge-warning {
+    background-color: #f89406;
+  }
+  
+  .svibadge-warning:hover {
+    background-color: #c67605;
+  }
+  
+  .svibadge-success {
+    background-color: #468847;
+  }
+  
+  .svibadge-success:hover {
+    background-color: #356635;
+  }
+  
+  .svibadge-info {
+    background-color: #3a87ad;
+  }
+  
+  .svibadge-info:hover {
+    background-color: #2d6987;
+  }
+  
+  .svibadge-inverse {
+    background-color: #333333;
+  }
+  
+  .svibadge-inverse:hover {
+    background-color: #1a1a1a;
+  }
+  
+  div#svigallery .wc-metabox-sortable-placeholder::after {
+    font-family: Dashicons;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "";
+    font-size: 2.618em;
+    line-height: 72px;
+    color: #ddd
+  }
+  
+  div#svigallery li.image .dashicons-format-video {
+    position: absolute;
+    left: 0;
+    opacity: 0.2;
+  }
+  
+  a.sviprobulk_remove {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  div#svigallery li.image:hover .dashicons-format-video,
+  a.sviprobulk_remove .dashicons:hover {
+    -webkit-transition: opacity 0.2s ease-in;
+    -moz-transition: opacity 0.2s ease-in;
+    -o-transition: opacity 0.2s ease-in;
+    opacity: 0.8;
+    color: red;
+  }
+  
+  .add_product_images_svipro {
+    height: 80px;
+  }
+  
+  .add_product_images_svipro a {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    color: #3c3c3c;
+    opacity: 0.5;
+  
+  }
+  
+  .add_product_images_svipro a>span {
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    left: 50%;
+    padding: 15%;
+    border: 3px dashed;
+  }
+  
+  .add_product_images_svipro a:hover {
+    -webkit-transition: opacity 0.2s ease-in;
+    -moz-transition: opacity 0.2s ease-in;
+    -o-transition: opacity 0.2s ease-in;
+    opacity: 1;
+  }
